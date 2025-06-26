@@ -12,7 +12,7 @@ public class ds_07 {
             for (int j = 0; j < matrix[i].length; j++) { // 內層：行
                 System.out.print(matrix[i][j] + " ");
             }
-            System.out.println(); // 每列結束換行
+            System.out.println(); 
         }
     }
 }
