@@ -1,10 +1,28 @@
+import java.util.Random;
+
 public class ds_05 {
     public static void main(String[] args) {
-        int[] numbers = {10, 20, 30, 40, 50};
-        
-        System.out.println("陣列的內容為：");
+        int[] numbers = new int[10];
+        Random rand = new Random();
+
         for (int i = 0; i < numbers.length; i++) {
-            System.out.println("第 " + (i + 1) + " 個元素是: " + numbers[i]);
+            numbers[i] = rand.nextInt(100); 
         }
+
+        System.out.print("陣列內容：");
+        for (int num : numbers) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
+
+       
+        int max = numbers[0];
+        for (int i = 1; i < numbers.length; i++) {
+            if (numbers[i] > max) {
+                max = numbers[i];
+            }
+        }
+
+        System.out.println("陣列中的最大值是: " + max);
     }
 }
