@@ -1,6 +1,6 @@
 public class matrix_multiplication_trace {
     public static void main(String[] args) {
-  8
+  
         int[][] a = {{1, 2}, {3, 4}};
         int[][] b = {{5, 6}, {7, 8}};
         
