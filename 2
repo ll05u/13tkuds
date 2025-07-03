@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class DivisionInput {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // 提示輸入
+        System.out.print("Enter two integers separated by space: ");
+
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+
+        if (b == 0) {
+            System.out.println("Error: Division by zero is not allowed.");
+        } else {
+            int quotient = a / b;
+            System.out.println("Output: " + quotient);
+        }
+
+        scanner.close();
+    }
+}
