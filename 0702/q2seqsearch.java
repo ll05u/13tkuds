@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class q2seqsearch {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); // 宣告變數名稱是 sc
         int n = sc.nextInt();
         int[] arr = new int[n];
         boolean found = false;
@@ -24,5 +24,7 @@ public class q2seqsearch {
 
         System.out.println(found ? "Yes" : "No");
         System.out.println(ops);
+
+        sc.close(); 
     }
 }
