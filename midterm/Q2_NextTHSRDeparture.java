@@ -1,4 +1,4 @@
-// 檔名：Q2_NextTHSRDeparture.java
+
 import java.util.*;
 
 public class Q2_NextTHSRDeparture {
