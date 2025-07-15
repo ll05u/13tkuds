@@ -1,4 +1,4 @@
-// 檔名：Q1_THSRStopCounter.java
+
 import java.util.*;
 
 public class Q1_THSRStopCounter {
